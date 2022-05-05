@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&family=DM+Sans&family=Hind+Siliguri:wght@300;400&family=Lato:wght@300&family=PT+Sans&family=Raleway:wght@200;300&family=Signika+Negative:wght@300&family=Ubuntu:wght@300;400&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1540277525654-c98aa1e37fb4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+  background-size: 150%;
+  background-repeat: no-repeat;
+  font-family: "Catamaran", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.heading {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 2%;
+  text-decoration: underline;
+}
+
+.container {
+  background-color: aliceblue;
+  display: inline;
+  width: 300px;
+  opacity: 0.7;
+  border-radius: 13px;
+  user-select: none;
+}
+
+.container > .countdown > .big-text {
+  font-weight: bold;
+  font-size: 6rem;
+  margin: 0 1.5rem;
+}
+
+.container > .countdown {
+  text-align: center;
+}
+
+.container > .countdown > span {
+  font-size: 1.8rem;
+}
+
+.container > .countdown > span {
+  padding-bottom: 20%;
+}
+
+/* footer */
+footer {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-align: center;
+  margin-top: 5%;
+}
+
+@media only screen and (max-width: 1300px) {
+  container {
+    width: 100%;
+  }
+  body {
+    background-size: cover;
+  }
+}
