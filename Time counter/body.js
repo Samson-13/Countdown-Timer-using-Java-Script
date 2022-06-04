@@ -1,5 +1,5 @@
 // Change date here to see whats yours
-const realDate = "4 June 2022";
+const realDate = "4 June 2023";
 
 const realDays = document.getElementById("days");
 const realHours = document.getElementById("hours");
